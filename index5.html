@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="txt">parsa</h1>
+    <div class="box">
+        <p class="para1">Lorem ipsum dolor sit.</p>
+    </div>
+    <h3 class="para1">Lorem, ipsum dolor.</h3>
+    <script>
+      console.log( document.getElementById('txt').innerText)
+    document.getElementById('txt').innerText= "change by dom metod"
+
+
+    // *****************
+    console.log(document.getElementsByClassName("para1"))
+    document.getElementsByClassName("para1")[1].innerText="change by classname dom"
+
+    </script>
+</body>
+</html>
